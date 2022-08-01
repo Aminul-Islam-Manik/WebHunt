@@ -1,0 +1,178 @@
+/* X-Small devices (portrait phones, less than 576px) */
+ /* No media query for `xs` since this is the default in Bootstrap */
+
+ @media (min-width: 300px) and (max-width: 575px) {
+    .colapse{
+        display: block;
+    }
+    .header-wrap{
+        visibility: hidden;
+    }
+    .main{
+        justify-content: center;
+    }
+    .banner-right img{
+        left: 0;
+    }
+
+    .visibility{
+        display: none;
+    }
+    .nav-right{
+        margin: auto;
+    }
+    .navbar-nav{
+        gap: 20px;
+    }
+    .heading1{
+        font-size: 19px;
+    }
+    .heading-top h4{
+        font-size: 16px;
+    }
+    .type{
+        font-size: 22px;
+    }
+    .items{
+        width: 72%;
+    }
+/* popup */
+.li-w{
+    width: 100%;
+}
+.pop-w{
+    flex-direction: column;
+}
+.popup-l{
+    width: 100%;
+}
+.popup-r{
+    width: 100%;
+}
+
+/* about */
+.about-w{
+    display: block;
+}
+.about-l{
+    width: 100%;
+}
+.about-r{
+    width: 100%;
+}
+
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .colapse{
+        display: block;
+    }
+    .banner-right img{
+        left: 0;
+    }
+    .header-wrap{
+        visibility: hidden;
+    }
+
+/* services */
+.services{
+    position: relative;
+}
+.services-inner {
+    flex-direction: column;
+}
+.service-left{
+    width: 70%;
+    position: static;
+    /* top: 0;
+    left: 0; */
+}
+.service-right{
+    width: 100%;
+    padding-left: 15px;
+    position: static;
+}
+
+/* popup */
+.li-w{
+    width: 100%;
+}
+.pop-w{
+    flex-direction: column;
+}
+.popup-l{
+    width: 100%;
+}
+.popup-r{
+    width: 100%;
+}
+
+/* about */
+.about-w{
+    display: block;
+}
+.about-l{
+    width: 100%;
+}
+.about-r{
+    width: 100%;
+}
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .colapse{
+        display: block;
+    }
+    .main1{
+        padding: 0px 10px;
+    }
+    .header-wrap{
+        visibility: hidden;
+    }
+    .display{
+        display: block;
+    }
+    .navbar-left{
+        display: none;
+    }
+
+/* popup */
+.li-w{
+    width: 100%;
+}
+.pop-w{
+    flex-direction: column;
+}
+.popup-l{
+    width: 100%;
+}
+.popup-r{
+    width: 100%;
+}
+
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 991.5px) and (max-width: 1199.5px){ 
+    
+    /* popup */
+    .li-w{
+        width: 49%;
+    }
+
+
+
+ }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+}
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+ }
