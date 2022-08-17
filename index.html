@@ -33,7 +33,10 @@
       <div class="popup-r">
         <h2>Pet Animal</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, ad?</p>
-        <button class="btn-popup">visit site</button>
+        <a onclick="hide(0)" target="_blank" href="https://aminul-islam-manik.github.io/ecom-website/">
+          <button class="btn-popup">visit site</button>
+        </a>
+        <!-- <button class="btn-popup">visit site</button> -->
       </div>
     </div>
     <button class="close" onclick="hide(0)">X</button>
@@ -104,8 +107,6 @@
     <button class="close" onclick="hide(5)">X</button>
   </div>
 
-
-  <!-- <div class="container-fluid"> -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
@@ -127,6 +128,9 @@
                 <a class="nav-link" href="#about">About Me</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#portfolio">Projects</a>
               </li>
               <li class="nav-item">
@@ -135,19 +139,12 @@
               <li class="nav-item">
                 <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
-              </li>
-              <!-- <li class="nav-item display">
-                <a class="nav-link" href="#">01303798115</a>
-              </li> -->
             </ul>
           </div>
         </div>
       </div>
     </nav>
   </header>
-  <!-- </div> -->
 
   <main>
     <div id="home" class="main1">
@@ -168,11 +165,12 @@
                 <div class="banner1">
                   <div class="heading-top">
                     <h4>Hey, I'm</h4>
-                    <h1 class="heading1"> <span>A</span>minul Islam Manik</h1>
-                    <h4> I'm working as Expert Front-End</h4>
-                    <h1 class="type"></h1>
+                    <h1 class="heading1"> Aminul Islam Manik</h1>
+                    <!-- <h4> I'm working as Expert Front-End</h4> -->
+                    <h3>Expart <span class="type"></span> </h3>
+                    <!-- <h3 class="type"></h3> -->
                     <!-- <span class="type"></span> -->
-                    <p>I'm a Bangladesh based Developer.Designing and functionaly developing is my passion.Couple of years experience in this field.I'm always here to shining your busness in the web world</p>
+                    <p class="mt-2">I'm a Bangladesh based Developer. Designing and functionaly developing is my passion. Couple of years experience in this field. I'm always here to shining your busness in the web world</p>
                   </div>
                   <div class="btn-wraper">
                     <button class="btn-right">Hire Me</button>
@@ -196,11 +194,13 @@
 <section id="about" class="about">
   <div class="about-top">
     <h1>About me</h1>
-    <img src="img/goldbg.png" alt="">
+    <!-- <img src="img/goldbg.png" alt=""> -->
   </div>
   <div class="about-w">
     <div class="about-l">
-      <img src="img/mn3.png" alt="">
+      <div class="about-img">
+        <img src="img/nm.png" alt="">
+      </div>
     </div>
     <div class="about-r">
       <div class="about-up">
@@ -219,7 +219,69 @@
         </div>
         <div class="about-item" onmouseover="increaseWidth(2)">
           <h4>Skill</h4>
-          <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sapiente magni at earum explicabo maxime doloribus voluptatum hic distinctio minima?</p>
+          <!-- <ul class="skill">
+            <img src="img/html-5-100.png" alt="">
+            <img src="img/icons8-css3-100.png" alt="">
+            <!-- <li>
+              <img src="img/html-5-100.png" alt="">
+            </li> -->
+          <!-- </ul> -->
+          
+        <div class="skill-part">
+         <div class="d-flex mb-2">
+            <div class="col-3">
+              <span class="skill-h">Expertise:</span>
+            </div>
+           <div class="col-9 d-inline-block">
+            <span class="d-inline-block skill-item">Html5</span>
+            <span class="d-inline-block skill-item">Css3</span>
+            <span class="d-inline-block skill-item">Bootstrap5</span>
+            <span class="d-inline-block skill-item">Tailwind</span>
+            <span class="d-inline-block skill-item">Javascript</span>
+            <span class="d-inline-block skill-item">Es6</span>
+            <span class="d-inline-block skill-item">Jquery</span>
+            <span class="d-inline-block skill-item">React js</span>
+            <span class="d-inline-block skill-item">React Router Dom</span>
+            <span class="d-inline-block skill-item">Firebase Authentication</span>
+            <span class="d-inline-block skill-item">Firebase Hosting</span>
+           </div>
+         </div>
+      
+         <div class="d-flex mb-2">
+          <div class="col-3">
+            <span class="skill-h d-inline-block">Comfortable:</span>
+          </div>
+            <div class="col-9">
+              <span class="d-inline-block skill-item">Node js</span>
+              <span class="d-inline-block skill-item">MongoDB</span>
+              <span class="d-inline-block skill-item">React Bootstrap</span>
+              <span class="d-inline-block skill-item">React Hook From</span>
+            </div>
+         </div>
+        
+         <div class="d-flex mb-2">
+          <div class="col-3">
+            <span class="skill-h d-inline-block">Familiar:</span>
+          </div>
+          <div class="col-9">
+            <span class="d-inline-block skill-item">Tailwind Css</span>
+            <span class="d-inline-block skill-item">Matarial UI</span>
+          </div>
+         </div>
+         
+         <div class="d-flex">
+          <div class="col-3">
+            <span class="skill-h d-inline-block">Tools:</span>
+          </div>
+           <div class="col-9">
+            <span class="d-inline-block skill-item">Git</span>
+            <span class="d-inline-block skill-item">Vs Code</span>
+            <span class="d-inline-block skill-item">Heroku</span>
+            <span class="d-inline-block skill-item">Netlify</span>
+           </div>
+         </div>
+        </div>
+
         </div>
         <div class="about-item" onmouseover="increaseWidth(3)">
           <h4>Personal Information</h4>
@@ -234,57 +296,38 @@
   </div>
 </section>
 
-  <!-- portfolio section -->
-  <section id="portfolio" class="portfolio">
-    <h1 class="p-heading">Projects at a glance</h1>
-    <div class="portfolio-item">
-      <div class="li-w" onclick="display(0)">
-          <img src="img/image-une-webdesign.jpg" alt="">
-      </div>
-      <div class="li-w" onclick="display(0)">
-        <img src="img/image-une-webdesign.jpg" alt="">
-      </div>
-      <div class="li-w" onclick="display(0)">
-        <img src="img/image-une-webdesign.jpg" alt="">
-      </div>
-      <div class="li-w" onclick="display(0)">
-        <img src="img/image-une-webdesign.jpg" alt="">
-      </div>
-    </div>
-  </section>
-
     <!-- Services part start -->
     <section class="services" id="services">
       <h1>My Services</h1>
-      <h2 class="text-center">Freelance Web Designer & Developer based in Galway, Ireland. <br>
-        Highly experienced in designing & developing custom Wordpress websites.</h2>
+      <h2 class="text-center">Freelance Web Designer & Developer based in Bangladesh.Highly experienced in designing & developing websites by coding or any CMS</h2>
       <div class="services-inner">
         <div class="service-left">
           <h1>What I Do</h1>
           <div class="service-items">
-            <div class="s-item" onclick="showContent(0,'#73535B')">
-              <h4>Website Design</h4>
-              <img src="img/galway-website-design.png" alt="">
+            <div class="s-item" onclick="showContent(0,'#5ac24e')">
+              <h4>Web Design</h4>
+              <i class="fa-solid fa-circle-chevron-right"></i>
             </div>
-            <div class="s-item" onclick="showContent(1, '#73535B')">
+            <div class="s-item" onclick="showContent(2,'#5ac24e')">
+              <h4>Web Development</h4>
+              <i class="fa-solid fa-circle-chevron-right"></i>
+            </div>
+            <div class="s-item" onclick="showContent(1, '#5ac24e')">
               <h4>Custom WordPress</h4>
-              <img src="img/download.svg" alt="">
+              <i class="fa-solid fa-circle-chevron-right"></i>
             </div>
-            <div class="s-item" onclick="showContent(2,'#73535B')">
-              <h4>Website Design</h4>
-              <img src="img/galway-website-design.png" alt="">
-            </div>
-            <div class="s-item" onclick="showContent(3, '#73535B')">
+            
+            <div class="s-item" onclick="showContent(3, '#5ac24e')">
               <h4>PSD TO HTML</h4>
-              <img src="img/download.svg" alt="">
+              <i class="fa-solid fa-circle-chevron-right"></i>
             </div>
-            <div class="s-item" onclick="showContent(4,'#73535B')">
-              <h4>Website Design</h4>
-              <img src="img/galway-website-design.png" alt="">
+            <div class="s-item" onclick="showContent(4,'#df14147a')">
+              <h4>Bug Fixing</h4>
+              <i class="fa-solid fa-circle-chevron-right"></i>
             </div>
-            <div class="s-item" onclick="showContent(5, '#73535B')">
-              <h4>PSD TO HTML</h4>
-              <img src="img/download.svg" alt="">
+            <div class="s-item" onclick="showContent(5, '#df14147a')">
+              <h4>Email Template</h4>
+              <i class="fa-solid fa-circle-chevron-right"></i>
             </div>
           </div>
         </div>
@@ -315,9 +358,9 @@
                 </div>
                 <div class="content-heading">
                   <h4 class="text-center">Others Services</h4>
-                  <li><a href="#service" onclick="showContent(0,'#bbb')">Website Design</a> <i
+                  <li><a href="#service" onclick="showContent(0,'#df14147a')">Website Design</a> <i
                       class="fa-solid fa-circle-chevron-right"></i></li>
-                  <li onclick="showContent(1,'#bbb')"><a href="#service">Custom WordPress Theme Development</a> <i
+                  <li onclick="showContent(1,'#df14147a')"><a href="#service">Custom WordPress Theme Development</a> <i
                       class="fa-solid fa-circle-chevron-right"></i></li>
                   <li><a href="#service">Website Design</a> <i class="fa-solid fa-circle-chevron-right"></i></li>
                   <li><a href="#service">Website Design</a> <i class="fa-solid fa-circle-chevron-right"></i></li>
@@ -352,9 +395,9 @@
                 </div>
                 <div class="content-heading">
                   <h4 class="text-center">Others Services</h4>
-                  <li><a href="">Custom WordPress Theme Development</a> <i class="fa-solid fa-circle-chevron-right"></i>
+                  <li><a href="#">Custom WordPress Theme Development</a> <i class="fa-solid fa-circle-chevron-right"></i>
                   </li>
-                  <li><a href="#service" onclick="showContent(0,'#bbb')">Website Design</a> <i
+                  <li><a href="#" onclick="showContent(0,'#df14147a')">Website Design</a> <i
                       class="fa-solid fa-circle-chevron-right"></i></li>
                   <li><a href="#">Website Design</a> <i class="fa-solid fa-circle-chevron-right"></i></li>
                   <li><a href="#">Website Design</a> <i class="fa-solid fa-circle-chevron-right"></i></li>
@@ -435,47 +478,141 @@
       </div>
     </section>
 
+  <!-- portfolio section -->
+  <section id="portfolio" class="portfolio">
+    <h1 class="p-heading">Projects at a glance</h1>
+    <div class="portfolio-item">
+      <div class="li-w" onclick="display(0)">
+          <!-- <img src="img/image-une-webdesign.jpg" alt=""> -->
+
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/image-une-webdesign.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/microblog2-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/image-une-webdesign.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+
+
+
+
+      </div>
+      <div class="li-w" onclick="display(0)">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/image-une-webdesign.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/microblog2-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/image-une-webdesign.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="li-w" onclick="display(0)">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/image-une-webdesign.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/microblog2-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/image-une-webdesign.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="li-w" onclick="display(0)">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/image-une-webdesign.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/microblog2-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/image-une-webdesign.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- price section -->
+  <section class="price">
+    <h1>Choice Your Plan</h1>
+    <div class="price-info">
+      <div class="price-item">
+        <h2>Basic</h2>
+        <h1></h1>
+      </div>
+      <div class="price-item">
+        
+      </div>
+      <div class="price-item">
+        
+      </div>
+    </div>
+  </section>
+
 <!-- contact section -->
 
 <section id="contact" class="contact">
   <div class="contact-top">
     <h1>Get In Touch</h1>
-    <img src="img/goldbg.png" alt="">
   </div>
   <div class="contact-p">
-    <p>Let's make a bonding to each other for releasing ours daily pressure and leading enjoyable life.Don't feel any hesitation, share your thinking about your projects.I'm always here to turn it to real</p>
+    <p>We’re here to help and answer any question you might have. We look forward to hearing from you</p>
   </div>
   <div class="contact-info">
     <div class="contact-media">
-       <p>You also find me social media platform</p> 
-      <ul class="platform">
+      <div class="contact-left">
         <h4>You also find me social media platform</h4>
+        <ul class="platform">
+          <li><a href="#"><i class="fa-solid fa-location-dot"></i><span>Bhaluka,Mymensingh,Dhaka,Bangladesh</span></a></li>
+          <li><a href="#"><i class="fa-solid fa-envelope"></i><span>engaminul177@gmail.com</span></a></li>
+          <li><a href="#"><i class="fa-solid fa-phone-volume"></i><span>01303798115</span></a></li>
+        </ul>
+      </div>
+      <!-- <h4>You also find me social media platform</h4>
+      <ul class="platform">
         <li><a href="#"><i class="fa-solid fa-location-dot"></i><span>Bhaluka,Mymensingh,Dhaka,Bangladesh</span></a></li>
         <li><a href="#"><i class="fa-solid fa-envelope"></i><span>engaminul177@gmail.com</span></a></li>
         <li><a href="#"><i class="fa-solid fa-phone-volume"></i><span>01303798115</span></a></li>
-      </ul>
+      </ul> -->
     </div>    
     <div class="contact-email">
       <h4>Contact with me</h4>
-      <p>We’re here to help and answer any question you might have. We look forward to hearing from you</p>
-
       <form id="form">
         <div class="field">
-          <label for="to_name">to_name</label>
+          <!-- <label for="to_name">to_name</label> -->
           <input type="text" name="to_name" id="to_name" placeholder="Name">
         </div>
         <div class="field">
-          <label for="from_name">from_name</label>
+          <!-- <label for="from_name">from_name</label> -->
           <input type="email" name="email" id="email" placeholder="Your email">
         </div>
         <div class="field">
-          <label for="message">message</label>
+          <!-- <label for="message">message</label> -->
           <textarea name="message" id="message" placeholder="Type your massage" cols="10" rows="3"></textarea>
         </div>
-        <div class="field">
+        <!-- <div class="field">
           <label for="reply_to">reply_to</label>
           <input type="text" name="reply_to" id="reply_to">
-        </div>
+        </div> -->
       
         <input type="submit" id="button" value="Send Email" >
       </form>
@@ -548,7 +685,7 @@
       });
       tabContent[index].style.display = 'block';
     };
-    showContent(0, '#73535B');
+    showContent(0, '#5ac24ef0');
 
     const popoup = document.querySelectorAll('.popup');
     const close = document.querySelectorAll('.close');
