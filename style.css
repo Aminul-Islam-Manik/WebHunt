@@ -16,8 +16,8 @@
 
 h1{
     /* font-family: 'Alfa Slab One', cursive; */
-    /* font-family: 'Lobster', cursive; */
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Lobster', cursive;
+    /* font-family: 'Kaushan Script', cursive; */
     letter-spacing: 1.5px;
 }
 h3{
@@ -31,7 +31,7 @@ p{
 }
 /* scrollbar css */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 7px;
 }
 /* Track */
 ::-webkit-scrollbar-track {
@@ -41,13 +41,13 @@ p{
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #5ac24e;; 
+    background: #268065; 
     border-radius: 10px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #5ac24e;; 
+    background: #268065; 
   }
 
 .li-w{
@@ -70,9 +70,7 @@ a {
     font-size: 15px;
     color: #ffffffbd;
 }
-/* body{
-    position: relative;
-} */
+
 * {
     margin: 0;
     padding: 0;
@@ -102,16 +100,13 @@ img{
 }
 .main1 {
     width: 100%;
-    /* background: #f44336; */
     background: #010126;
-    /* background-image: url(img/color_arrow.png);
-    background-position: center center;
-    background-repeat: no-repeat; */
 }
 
 header {
     /* background: #dbaf90 !important; */
     background: #73535B;
+    background: #268065;
 }
 
 .navbar {
@@ -191,12 +186,6 @@ header {
     text-decoration: none;
     padding-left: 12px;
 }
-
-/* .banner-btn {
-    display: flex;
-    gap: 25px;
-} */
-
 .hire-btn,
 .cv-btn,
 .btn-right {
@@ -205,10 +194,10 @@ header {
     letter-spacing: 1px;
     /* text-transform: uppercase; */
     font-weight: 600;
-    background: #5ac24ef0;
+    background: #268065;
     color: #fff;
-    border-top: 1px solid #73535B;
-    border-bottom: 1px solid #73535B;
+    border-top: 1px solid #268065;
+    border-bottom: 1px solid #268065;
     border-left: none;
     border-right: none;
     margin-top: 16px;
@@ -247,7 +236,7 @@ header {
     -webkit-background-clip: text;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000; */
-    color: #5ac24e;
+    color: #268065;
     margin: 3px 0 20px 0px;
 }
 .heading-top span{
@@ -338,7 +327,7 @@ header {
     content: '';
     width: 1px;
     height: 116px;
-    background: #73535B;
+    background: #268065;
     top: 115%;
     left: 12px;
 }
@@ -353,13 +342,13 @@ header {
 }
 
 .social-icon ul li a {
-    color: #ffffff8f;
+    color: #268065;
 }
 
 .social-icon ul li a :hover {
     width: 35px;
     height: 35px;
-    background: #ffffff38;
+    background: #268065;
     border-radius: 50%;
     line-height: 36px;
     color: #ffc107;
@@ -483,7 +472,7 @@ header {
     padding: 10px 0;
     font-size: 45px;
     font-weight: 700;
-    color: #fff;
+    color: #268065;
 }
 .services-inner {
     display: flex;
@@ -540,10 +529,11 @@ header {
     overflow-y: scroll;
     height: 270px;
     margin-top: 35px;
+    padding: 10px 0;
 }
 .s-item {
     width: 90%;
-    border: 1px solid #fff;
+    border: 1px solid #268065;
     text-align: center;
     padding: 10px 0px 0px 5px;
     display: flex;
@@ -555,8 +545,8 @@ header {
 }
 .s-item i{
     line-height: 25px;
-    font-size: 24px;
-    color: #ffffff2e;
+    font-size: 18px;
+    color: #ffffffb8;
     right: 6px;
     top: 8px;
     position: absolute;
@@ -650,8 +640,9 @@ header {
 /* portfolio css */
 .portfolio{
     width: 100%;
-    background: #010126;
-    padding: 85px 0;
+    /* background: #010126;
+    background: #268065; */
+    padding: 45px 0;
     position: relative;
     margin-bottom: -1px;
 }
@@ -660,7 +651,7 @@ header {
     padding: 30px 0;
     position: relative;
     margin-bottom: 67px;
-    color: #fff;
+    color: #268065;
 }
 .p-heading::before, .about-top::before, .services h1::before, .contact-top h1::before, .price h1::before{
     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgb(165, 165, 165), rgba(0, 0, 0, 0));
@@ -748,6 +739,7 @@ header {
 .about-top h1{
     text-align: center;
     margin-bottom: 30px;
+    color: #268065;
 }
 .about-top img{
     width: 5%;
@@ -779,6 +771,9 @@ header {
     padding: 20px 42px;
     padding-bottom: 32px;
 }
+.about-up h1{
+    color:#268065;
+}
 .about-details{
     width: 100%;
     display: flex;
@@ -788,11 +783,13 @@ header {
 }
 .about-item{
     width: 40px;
-    height: 300px;
+    height: 333px;
     transition: 0.7s;
     padding: 10px 20px;
     border: 1px solid #ddd;
     overflow: hidden;
+    background: #010126;
+    color: #fff;
 }
 .about-item h4{
     writing-mode: vertical-lr;
@@ -811,17 +808,17 @@ header {
     font-weight: 700;
 }
 .skill-item{
-background-color: rgba(0, 0, 0, 0.891);
-color: #fff;
-padding: 5px;
-font-size: 14px;
-margin-bottom: 10px;
+    background-color: #268065;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 /* Price section */
 .price{
     width: 100%;
     padding: 60px 0;
-    background: #ddd;
+    background: #010126;
 
 }
 .price h1{
@@ -829,6 +826,11 @@ margin-bottom: 10px;
     text-align: center;
     padding-bottom: 20px;
     margin-bottom: 50px;
+    color: #268065;
+}
+.price p{
+    color: #fff;
+    text-align: center;
 }
 .price-info{
     width: 100%;
@@ -854,7 +856,7 @@ margin-bottom: 10px;
     background: #010126;
     position: relative;
     overflow: hidden;
-    color: #fff;
+    /* color: #fff; */
     text-align: center;
     background-image: url(img/why_banner.png);
     background-position: center;
@@ -864,6 +866,9 @@ margin-bottom: 10px;
     width: 100%;
     position: relative;
     text-align: center;
+}
+.contact-top h1{
+    color: #268065;
 }
 .contact-top img{
     width: 5%;
@@ -893,10 +898,10 @@ margin-bottom: 10px;
 }
 .platform li i{
     font-size: 23px;
-    color: #5ac24e;
+    color: #268065;
     width: 60px;
     height: 60px;
-    border: 1px solid #dddddd1f;
+    border: 1px solid #268065;
     border-radius: 50%;
     line-height: 62px;
     margin: 6px 0px;
@@ -925,29 +930,22 @@ margin-bottom: 10px;
 .contact-media h4, .contact-email h4{
     margin-bottom: 39px;
     font-family: 'Lobster', cursive;
-    text-decoration: underline wavy #fff;
+    color: #268065;
+    /* text-decoration: underline wavy #268065; */
 }
 .contact-email{
     width: 46%;
 }
-/* .form-group input, textarea{
-    margin-bottom: 15px;
-    width: 94%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    outline: none;
-    background: #dddddd26;
-} */
 #form input[type="submit"]{
     width: 97%;
     padding: 8px 0;
-    background: #5ac24eef;
+    background: #268065;
     outline: none;
     color: #fff;
     border-radius: 34px;
     font-size: 19px;
     font-weight: 800;
-    border: 1px solid #5ac24eef;
+    border: 1px solid #268065;
 }
 input::-webkit-input-placeholder{
     color: #fff;
