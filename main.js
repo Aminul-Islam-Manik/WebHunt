@@ -5,15 +5,15 @@ console.log(heading)
 
 function increaseWidth(index){
     widthItem.forEach(function (node){
-        node.style.width = '40px';
+        node.style.width = '30px';
     })
     // widthItem[index].style.backgroundColor = 'red';
-    widthItem[index].style.width = '605px';
+    widthItem[index].style.width = '90%';
 
     para.forEach(function (node){
-        node.style.visibility = 'hidden';
+        node.style.display = 'none';
     })
-    para[index].style.visibility = 'visible';
+    para[index].style.display = 'block';
 
     heading.forEach(function (node){
         node.style.writingMode = 'vertical-lr';
