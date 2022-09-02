@@ -118,7 +118,7 @@ img{
 .main {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .dv {
@@ -307,8 +307,11 @@ header {
     height: 569px;
     /* overflow: hidden; */
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+/* 
 .banner-right::before {
     content: '';
     position: absolute;
@@ -321,13 +324,15 @@ header {
     z-index: 1;
     box-shadow: 0px 0px 70px 0px #fff;
     border: 39px solid #d9afa036;
-}
+} */
 
 .banner-right img {
-    width: 100%;
+    width: 400px;
     /* left: 85px; */
     position: relative;
-    height: 100%;
+    height: 400px;
+    border-radius: 50%;
+    border: 5px solid #268065;
 }
 
 .social-icon {
